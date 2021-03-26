@@ -1,11 +1,47 @@
 ﻿using System;
+using System.IO;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace Greenhouse
 {
     class Program
     {
+        public class Customer
+        {
+            private string name;
+            public string Name
+            {
+                get { return name; }
+                set { name = value; }
+            }
+            private int id;
+            public int Id
+            {
+                get { return id; }
+                set { id = value; }
+            }
+            private string gender;
+            public string Gender
+            {
+                get { return gender; }
+                set { gender = value; }
+            }
+
+        }
         static void Main(string[] args)
         {
+
+            Customer bard = new Customer();
+            bard.Name = "test"; bard.Gender = "Male"; bard.Id = 1;
+            string jsonString = JsonSerializer.Serialize(bard);
+            jsonString = JsonSerializer.Serialize(bard);
+            File.WriteAllText("../../../data/test.json", jsonString);
+
+            /*
+
+
+
             bool quit = false;
             do
             {
@@ -33,6 +69,8 @@ namespace Greenhouse
 
             } while (!quit);
 
+
+            */
 
 
         }
