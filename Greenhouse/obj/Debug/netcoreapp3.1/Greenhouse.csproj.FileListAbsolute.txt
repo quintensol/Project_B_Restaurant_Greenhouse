@@ -11,3 +11,16 @@ C:\Users\jjjoo\Documents\GitHub\Project_B_Restaurant_Greenhouse\Greenhouse\obj\D
 C:\Users\jjjoo\Documents\GitHub\Project_B_Restaurant_Greenhouse\Greenhouse\obj\Debug\netcoreapp3.1\Greenhouse.dll
 C:\Users\jjjoo\Documents\GitHub\Project_B_Restaurant_Greenhouse\Greenhouse\obj\Debug\netcoreapp3.1\Greenhouse.pdb
 C:\Users\jjjoo\Documents\GitHub\Project_B_Restaurant_Greenhouse\Greenhouse\obj\Debug\netcoreapp3.1\Greenhouse.genruntimeconfig.cache
+C:\Users\snell\Desktop\Github\Project_B_Restaurant_Greenhouse\Greenhouse\bin\Debug\netcoreapp3.1\Greenhouse.exe
+C:\Users\snell\Desktop\Github\Project_B_Restaurant_Greenhouse\Greenhouse\bin\Debug\netcoreapp3.1\Greenhouse.deps.json
+C:\Users\snell\Desktop\Github\Project_B_Restaurant_Greenhouse\Greenhouse\bin\Debug\netcoreapp3.1\Greenhouse.runtimeconfig.json
+C:\Users\snell\Desktop\Github\Project_B_Restaurant_Greenhouse\Greenhouse\bin\Debug\netcoreapp3.1\Greenhouse.runtimeconfig.dev.json
+C:\Users\snell\Desktop\Github\Project_B_Restaurant_Greenhouse\Greenhouse\bin\Debug\netcoreapp3.1\Greenhouse.dll
+C:\Users\snell\Desktop\Github\Project_B_Restaurant_Greenhouse\Greenhouse\bin\Debug\netcoreapp3.1\Greenhouse.pdb
+C:\Users\snell\Desktop\Github\Project_B_Restaurant_Greenhouse\Greenhouse\obj\Debug\netcoreapp3.1\Greenhouse.csprojAssemblyReference.cache
+C:\Users\snell\Desktop\Github\Project_B_Restaurant_Greenhouse\Greenhouse\obj\Debug\netcoreapp3.1\Greenhouse.AssemblyInfoInputs.cache
+C:\Users\snell\Desktop\Github\Project_B_Restaurant_Greenhouse\Greenhouse\obj\Debug\netcoreapp3.1\Greenhouse.AssemblyInfo.cs
+C:\Users\snell\Desktop\Github\Project_B_Restaurant_Greenhouse\Greenhouse\obj\Debug\netcoreapp3.1\Greenhouse.csproj.CoreCompileInputs.cache
+C:\Users\snell\Desktop\Github\Project_B_Restaurant_Greenhouse\Greenhouse\obj\Debug\netcoreapp3.1\Greenhouse.dll
+C:\Users\snell\Desktop\Github\Project_B_Restaurant_Greenhouse\Greenhouse\obj\Debug\netcoreapp3.1\Greenhouse.pdb
+C:\Users\snell\Desktop\Github\Project_B_Restaurant_Greenhouse\Greenhouse\obj\Debug\netcoreapp3.1\Greenhouse.genruntimeconfig.cache
