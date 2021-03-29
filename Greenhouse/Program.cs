@@ -2,7 +2,7 @@
 
 namespace Greenhouse
 {
-    class Program
+    class Pages
     {
         public static string FirstPage0()
         {
@@ -67,16 +67,19 @@ namespace Greenhouse
                 Console.WriteLine("All options and stuff");
             }
         }
-
+    }
+    
+    class Program
+    {
         static void Main(string[] args)
         {
             //Eerste page standaard open
-            string FirstPage0Awnser = FirstPage0();
+            string FirstPage0Awnser = Pages.FirstPage0();
 
             //check voor ouput FirstPage0Awnser
             if (FirstPage0Awnser == "2") // menu ------ Test! Dit is nu heel lelijk 
                 Console.Clear();
-                MenuPage0();
+                Pages.MenuPage0();
         }
     }
 }
