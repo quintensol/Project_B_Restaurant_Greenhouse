@@ -2,7 +2,7 @@
 using System.IO;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-
+using Class1;
 namespace Greenhouse
 {
     class Program
@@ -31,7 +31,7 @@ namespace Greenhouse
         }
         static void Main(string[] args)
         {
-
+            Console.WriteLine(test.thisis);
             Customer bard = new Customer();
             bard.Name = "test"; bard.Gender = "Male"; bard.Id = 1;
             string jsonString = JsonSerializer.Serialize(bard);
