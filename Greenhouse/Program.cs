@@ -10,11 +10,8 @@ namespace Greenhouse
         public class Customer
         {
             private string name;
-            public string Name
-            {
-                get { return name; }
-                set { name = value; }
-            }
+            public string Name { get; set; }
+
             private int id;
             public int Id
             {
@@ -35,10 +32,9 @@ namespace Greenhouse
             Customer bard = new Customer();
             bard.Name = "test"; bard.Gender = "Male"; bard.Id = 1;
             string jsonString = JsonSerializer.Serialize(bard);
-            jsonString = JsonSerializer.Serialize(bard);
             File.WriteAllText("../../../data/test.json", jsonString);
 
-            /*
+            
 
 
 
@@ -70,7 +66,7 @@ namespace Greenhouse
             } while (!quit);
 
 
-            */
+            
 
 
         }
