@@ -1,46 +1,59 @@
 ﻿using System;
-
+using Rules;
 namespace Greenhouse
 {
     class Pages
     {
-        public static string FirstPage0()
+        public static void FirstPage0()
         {
-            Console.WriteLine("Welcome to the GreenHouse Reservation Application\n");
 
-            Console.WriteLine("These are the avalable options:\n");
-            Console.WriteLine("1. Reservation");
-            Console.WriteLine("2. Menu");
-            Console.WriteLine("3. Rules");
-            Console.WriteLine("4. Exit");
+            bool running = true;
+            do
+            {
+                Console.WriteLine("Welcome to the GreenHouse Reservation Application\n");
 
-            Console.Write("Put down your option here: ");
-            string result = Console.ReadLine();
+                Console.WriteLine("These are the avalable options:\n");
+                Console.WriteLine("1. Reservation");
+                Console.WriteLine("2. Menu");
+                Console.WriteLine("3. Rules");
+                Console.WriteLine("4. Exit");
 
-            if (result == "1") //reservation
-            {
-                return "1";
-            }
-            else if (result == "2") //menu
-            {
-                return "2";
-            }
-            else if (result == "3") //rules
-            {
-                return "3";
-            }
-            else if (result == "4") //exit
-            {
-                Environment.Exit(1);
-                return null;
-            }
-            else
-            {
-                Console.Clear();
-                Console.WriteLine("\n ----This is not a valid option, try again.----\n");
-                FirstPage0();
-                return null;
-            }
+                Console.Write("Put down your option here: ");
+                string result = Console.ReadLine();
+                if (result == "3") //rules
+                {
+                    var page = new ShowPage();
+                    page.show();
+                }
+                /*
+                if (result == "1") //reservation
+                {
+                    return "1";
+                }
+                else if (result == "2") //menu
+                {
+                    return "2";
+                }
+                else if (result == "3") //rules
+                {
+                    var page = new ShowPage();
+                    page.show();
+                    return null;
+                }
+                else if (result == "4") //exit
+                {
+                    Environment.Exit(1);
+                    return null;
+                }
+                else
+                {
+                    Console.Clear();
+                    Console.WriteLine("\n ----This is not a valid option, try again.----\n");
+                    FirstPage0();
+                    return null;
+                }
+                */
+            } while (running);
         }
 
         public static void MenuPage0() //voor nu void 
@@ -74,12 +87,9 @@ namespace Greenhouse
         static void Main(string[] args)
         {
             //Eerste page standaard open
-            string FirstPage0Awnser = Pages.FirstPage0();
+            Pages.FirstPage0();
 
-            //check voor ouput FirstPage0Awnser
-            if (FirstPage0Awnser == "2") // menu ------ Test! Dit is nu heel lelijk 
-                Console.Clear();
-                Pages.MenuPage0();
+
         }
     }
 }
